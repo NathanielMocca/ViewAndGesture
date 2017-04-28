@@ -23,8 +23,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.playingCardView.faceUp = YES;
-    self.playingCardView.suit = @"♥";
-    self.playingCardView.rank = 12;
+    self.playingCardView.suit = @"♠";
+    self.playingCardView.rank = 7;
 }
 
 
