@@ -16,6 +16,7 @@
 		1F2988E01EB3151F007AD771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2988DE1EB3151F007AD771 /* LaunchScreen.storyboard */; };
 		1F2988EB1EB3151F007AD771 /* ViewsAndGesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2988EA1EB3151F007AD771 /* ViewsAndGesturesTests.m */; };
 		1F2988F61EB3151F007AD771 /* ViewsAndGesturesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2988F51EB3151F007AD771 /* ViewsAndGesturesUITests.m */; };
+		1F2989051EB31647007AD771 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2989041EB31647007AD771 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1F2988F11EB3151F007AD771 /* ViewsAndGesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewsAndGesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2988F51EB3151F007AD771 /* ViewsAndGesturesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewsAndGesturesUITests.m; sourceTree = "<group>"; };
 		1F2988F71EB3151F007AD771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2989031EB31647007AD771 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		1F2989041EB31647007AD771 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				1F2988D31EB3151F007AD771 /* ViewController.h */,
 				1F2988D41EB3151F007AD771 /* ViewController.m */,
 				1F2988D61EB3151F007AD771 /* Main.storyboard */,
+				1F2989031EB31647007AD771 /* PlayingCardView.h */,
+				1F2989041EB31647007AD771 /* PlayingCardView.m */,
 				1F2988DC1EB3151F007AD771 /* Assets.xcassets */,
 				1F2988DE1EB3151F007AD771 /* LaunchScreen.storyboard */,
 				1F2988E11EB3151F007AD771 /* Info.plist */,
@@ -280,6 +285,7 @@
 				1F2988D51EB3151F007AD771 /* ViewController.m in Sources */,
 				1F2988D21EB3151F007AD771 /* AppDelegate.m in Sources */,
 				1F2988CF1EB3151F007AD771 /* main.m in Sources */,
+				1F2989051EB31647007AD771 /* PlayingCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
