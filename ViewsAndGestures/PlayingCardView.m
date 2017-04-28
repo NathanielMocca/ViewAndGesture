@@ -77,8 +77,14 @@
 }
 
 -(NSString *)rankAsString {
-    return @[@"?",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"][self.rank];
+    return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"][self.rank];
     //Array[index]
+}
+
+-(void)randomSuit {
+    NSArray *suits = @[@"♠",@"♣",@"♥",@"♦"];
+    unsigned index = arc4random() % [suits count];
+    self.suit = suits[index];
 }
 
 -(void) setup {

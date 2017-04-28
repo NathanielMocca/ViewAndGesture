@@ -14,5 +14,5 @@
 @property (nonatomic, strong) NSString *suit;
 @property (nonatomic) NSUInteger rank;
 
-
+-(void)randomSuit;
 @end
